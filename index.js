@@ -7,16 +7,15 @@
 
   mainRouterConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
   function mainRouterConfig($stateProvider, $urlRouterProvider){
-    let mainState = {
+    $stateProvider.state('main', {
       url: '/',
       templateUrl: 'app/main/main.html',
       controller: 'mainController as main'
-    }
+    });
 
-    $stateProvider.state(mainState);
     $urlRouterProvider.otherwise('/');
   }
-
+  
   function mainController() {
 
   }
