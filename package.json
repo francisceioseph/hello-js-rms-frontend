@@ -1,0 +1,23 @@
+{
+  "name": "hello-js-rms-frontend",
+  "version": "1.0.0",
+  "description": "A simple front end for hello-js-rms-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisceioseph/hello-js-rms-frontend.git"
+  },
+  "author": "Francis Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francisceioseph/hello-js-rms-frontend/issues"
+  },
+  "homepage": "https://github.com/francisceioseph/hello-js-rms-frontend#readme",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-ui-router": "^0.3.2"
+  }
+}
