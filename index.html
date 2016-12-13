@@ -2,7 +2,7 @@
 <html lang="en">
   
   <head>
-    <title></title>
+    <title>Main Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,14 +12,14 @@
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 
-    <!--Controllers-->
-    <script src="index.js"></script>
-
-    <!-- Services -->
-
   </head>
   
   <body ng-app="rms">
-    <ui-view></ui-view>
+    <div ui-view></div>
+
+    <!--Controllers-->
+    <script src="people/people.js"></script>    
+    <script src="index.js"></script>
+    <!-- Services -->
   </body>
 </html>
