@@ -1,0 +1,18 @@
+<div class="panel panel-default col-md-6 left-panel">
+  <form novalidate name="person" ng-submit="peopleCtrl.savePerson()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input class="form-control" type="text" name="name" ng-model="peopleCtrl.person.person_name">
+    </div>
+    <div class="form-group">
+      <label for="phone">Telephone</label>
+      <input class="form-control" type="tel" name="phone" ng-model="peopleCtrl.person.person_telefone">
+    </div>
+    <div class="form-group">
+      <label for="mail">Email</label>
+      <input class="form-control" type="email" name="mail" ng-model="peopleCtrl.person.person_email">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+  </form>
+</div>

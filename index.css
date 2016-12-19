@@ -1,0 +1,16 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.row {
+  margin: 0;
+}
+
+.left-panel {
+  margin: 2em;
+  padding: 1em;
+}
+
+.list-people {
+  margin-top: 2em;
+  margin-left: 2em;
+
+}

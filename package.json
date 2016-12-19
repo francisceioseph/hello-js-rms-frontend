@@ -18,6 +18,7 @@
   "homepage": "https://github.com/francisceioseph/hello-js-rms-frontend#readme",
   "dependencies": {
     "angular": "^1.6.0",
+    "angular-ui-bootstrap": "^2.3.1",
     "angular-ui-router": "^0.3.2"
   }
 }
